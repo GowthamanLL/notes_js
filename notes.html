@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes web</title>
+    <link rel="stylesheet" href="./style.css" />
+
+</head>
+<body>
+    <h1>Notes</h1>
+    <button id="bt" onclick="fun1()">+</button>
+    
+    <div class="container">
+        <div id="div">
+        <h2>rich or poor</h2>
+        <h4>robert</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis omnis magnam aperiam saepe in labore? Odio nostrum qui ipsa reprehenderit, voluptatem possimus ut eligendi quas fugit quia necessitatibus harum eveniet!</p>
+        <button id="del" onclick="delete1(event)">delete</button>
+        </div>
+    </div>
+    <div id="div2">
+    </div>
+    <div id="pop">
+        <h1>Add Notes</h1>
+        <form action="" class="form">
+            <label for="book" ></label><br />
+            <input type="text" name="book" placeholder="Title" id="name"><br />
+            <label for="author"></label><br />
+            <input type="text" name="author" placeholder="Subject" id="author_name"/><br />
+            <label for="description"></label><br />
+            <textarea id="txt" name="description" placeholder="Short description"></textarea><br/><br />
+            <button id="bt1">save</button><br><br>
+            <button id="bt2">cancel</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
